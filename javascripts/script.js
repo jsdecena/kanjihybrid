@@ -1,5 +1,5 @@
 jQuery(function(){
-	var value = $("div").html();
+	var value = $("#original").html();
 	var regex = /\s+/gi;
 	var words = value.trim().replace(regex, ' ').split(' ');
 	var wrapped ="";
